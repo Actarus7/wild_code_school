@@ -1,0 +1,193 @@
+body {
+  background-color: #fefaec;
+}
+
+#bloc_page {
+  width: 100%;
+}
+
+p {
+  font-family: "Handlee", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 0.9em;
+  margin-top: 25px;
+}
+
+li {
+  margin-right: 80px;
+}
+
+header a {
+  display: block;
+  font-size: 1.5em;
+  color: #181818;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-style: italic;
+  border: 1px solid black;
+  min-width: 150px;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  background-color: #fefaec;
+}
+
+header a:hover {
+  color: #760001;
+  border-bottom: 3px solid #760001;
+}
+
+a {
+  color: #181818;
+}
+
+a:hover {
+  color: blue;
+}
+
+#banniere {
+  background-image: url("images/savane.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px;
+}
+
+#main_title {
+  font-size: 3em;
+  position: relative;
+  top: 7px;
+  left: 20px;
+}
+
+footer {
+  text-align: right;
+  font-size: 2em;
+}
+
+#about h2,
+#heroes h2,
+#infos h2,
+#contact h2,
+#credits h2 {
+  font-size: 2em;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Handlee", cursive;
+  text-shadow: 2px 3px gray;
+}
+
+#about p,
+#heroes p,
+#contact p,
+#credits p {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Handlee", cursive;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  caption-side: bottom;
+  margin: auto;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  font-family: "Handlee", cursive;
+}
+
+table th {
+  background-color: gray;
+  color: white;
+}
+
+caption {
+  text-align: right;
+  background-color: lightskyblue;
+  color: white;
+  padding-right: 10px;
+}
+
+form {
+  text-align: center;
+  background-color: lightgreen;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+label {
+  line-height: 2;
+}
+
+figcaption {
+  text-align: center;
+  font-family: "Handlee", cursive;
+}
+
+#header_home {
+  background-color: rgb(228, 177, 84);
+}
+
+#header_infos_family {
+  background-color: lightskyblue;
+}
+
+#header_royal_family {
+  background-color: pink;
+}
+
+#header_contact {
+  background-color: lightgreen;
+}
+
+#header_credits {
+  background-color: rgb(248, 115, 115);
+}
+
+span {
+  font-weight: bold;
+  color: red;
+}
+
+#secretPage {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+#backHome {
+  font-size: 2em;
+}
+
+@media all and (max-width: 1024px) {
+  ul {
+    flex-direction: column;
+  }
+}
